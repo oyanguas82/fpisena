@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Detalles MOSS</title>
+</head>
+<body>
+    <header>
+        <h1 id="banner">Detalles MOSS</h1>
+    </header>
+
+    <main>
+        <section id="catalog">
+            <!-- Items will be injected here -->
+        </section>
+
+        <section id="cart">
+            <h2>Carrito</h2>
+            <ul id="cart-items"></ul>
+            <h3>Método de pago</h3>
+            <form id="payment-form">
+                <label><input type="radio" name="payment" value="PSE"> PSE</label><br>
+                <label><input type="radio" name="payment" value="Nequi"> Nequi</label><br>
+                <label><input type="radio" name="payment" value="Daviplata"> Daviplata</label><br>
+                <label><input type="radio" name="payment" value="Wompi"> Wompi</label>
+            </form>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
